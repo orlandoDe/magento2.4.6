@@ -39,6 +39,9 @@
         "files": [
             "registration.php"
         ],
+        "psr-4": {
+            "Paguelofacil\\Gateway\\": ""
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
