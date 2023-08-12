@@ -19,6 +19,14 @@
     "require": {
         "php": ">=7.4"
     },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Paguelofacil/Gateway"
+            ]
+        ]
+    },
     "keywords": [
         "magento",
         "magento2",
@@ -31,9 +39,6 @@
         "files": [
             "registration.php"
         ],
-        "psr-4": {
-            "Paguelofacil\\Gateway\\": ""
-        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
