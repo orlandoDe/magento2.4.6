@@ -46,9 +46,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-autoload-dump": [
-            "@composer dump-autoload",
-            "rm -rf vendor/paguelofacil-gateway/"
+        "post-package-install": [
+            "magento paguelofacil:postrequire"
         ]
     }
 }
