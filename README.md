@@ -19,14 +19,14 @@ Install
 2. Ingrese los siguiente comandos a continuación para instalar el modulo.
 
     ```bash
-    composer require paguelofacil-gateway/magento2.4.6
+    composer require paguelofacil-gateway/magento2.4.6:1.0.12
     ```
 Esperar mientras las dependencias se actualizan.
 
 3. Ingrese el siguiente comandos para limpiar archivos innecesarios:
 
  ```bash
-    rm -rf vendor/paguelofacil-gateway/
+    rm -rf app/code/Paguelofacil/
  ```
 
 4. Ahora ejecutamos los comandos de Magento para instalar modulos
