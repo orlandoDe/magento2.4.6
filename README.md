@@ -27,7 +27,7 @@ Esperar mientras las dependencias se actualizan.
 
  ```bash
     rm -rf vendor/paguelofacil-gateway/
-    ```
+ ```
 
 4. Ahora ejecutamos los comandos de Magento para instalar modulos
 
@@ -54,4 +54,4 @@ Uninstall
  ```bash
     rm -rf app/code/Paguelofacil/
     php bin/magento c:f
-    ```
+ ```
