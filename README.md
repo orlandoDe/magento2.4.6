@@ -26,7 +26,7 @@ Esperar mientras las dependencias se actualizan.
 3. Ingrese el siguiente comandos para limpiar archivos innecesarios:
 
  ```bash
-    rm -rf app/code/Paguelofacil/
+	rm -rf app/code/Paguelofacil/
  ```
 
 4. Ahora ejecutamos los comandos de Magento para instalar modulos
@@ -55,5 +55,5 @@ Uninstall
     rm -rf app/code/Paguelofacil/
  ```
   ```bash
- php bin/magento c:f
+	php bin/magento c:f
   ```
