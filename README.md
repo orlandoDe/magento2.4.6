@@ -14,7 +14,7 @@ Other notes on extension:
 Install
 =======
 
-1. Vaya a la carpeta raiz de Magento desde la consola.
+1. Vaya a la carpeta raíz de Magento desde la consola.
 
 2. Ingrese los siguiente comandos a continuación para instalar el modulo.
 
