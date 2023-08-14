@@ -1,23 +1,31 @@
 {
     "name": "paguelofacil-gateway/magento2.4.6",
     "description": "Paguelofacil Payment Gateway Integration",
-    "require": {
-        "php": ">=7.4"
-    },
     "type": "magento2-module",
-    "version": "v1.0.14",
-    "license": [
-        "OSL-3.0"
-    ],
     "authors": [
         {
             "name": "Paguelofacil Gateway Payment",
             "email": "orlando.depablos@outlook.com",
-            "role": "Paguelofacil ExDeveloper"
+            "role": "Developer"
         }
     ],
     "support": {
         "email": "info@paguelofacil.com"
+    },
+    "version": "v1.0.15",
+    "license": [
+        "OSL-3.0"
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "Paguelofacil/Gateway"
+            ]
+        ]
     },
     "keywords": [
         "magento",
@@ -32,7 +40,14 @@
             "registration.php"
         ],
         "psr-4": {
-            "Paguelofacil\\Gateway\\": "vendor/paguelofacil-gateway/magento2.4.6"
+            "Paguelofacil\\Gateway\\": ""
         }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-install-cmd": [
+            "rm -rf vendor/paguelofacil-gateway/"
+        ]
     }
 }
