@@ -5,7 +5,7 @@
         "php": ">=7.4"
     },
     "type": "magento2-module",
-    "version": "v1.0.13",
+    "version": "v1.0.14",
     "license": [
         "OSL-3.0"
     ],
@@ -32,7 +32,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Paguelofacil\\Gateway\\": "app/code/Paguelofacil/Gateway"
+            "Paguelofacil\\Gateway\\": "vendor/paguelofacil-gateway/magento2.4.6"
         }
     }
 }
