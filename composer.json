@@ -32,7 +32,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Paguelofacil\\Gateway\\": ""
+            "Paguelofacil\\Gateway\\": "app/code/Paguelofacil/Gateway"
         }
     },
     "minimum-stability": "dev",
