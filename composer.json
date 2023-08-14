@@ -19,14 +19,6 @@
     "require": {
         "php": ">=7.4"
     },
-    "extra": {
-        "map": [
-            [
-                "*",
-                "Paguelofacil/Gateway"
-            ]
-        ]
-    },
     "keywords": [
         "magento",
         "magento2",
