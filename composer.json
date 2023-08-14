@@ -32,7 +32,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Paguelofacil\\Gateway\\": ""
+            "Paguelofacil\\Gateway\\": "paguelofacil-gateway/magento2.4.6"
         }
     }
 }
