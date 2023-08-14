@@ -14,7 +14,7 @@ Other notes on extension:
 Install
 =======
 
-1. Vaya a la carpeta raiz de Magento.
+1. Vaya a la carpeta raiz de Magento desde la consola.
 
 2. Ingrese los siguientes comandos para instalar el modulo.
 
@@ -23,12 +23,17 @@ Install
     ```
 Esperar mientras las dependencias se actualizan.
 
-3. Ingrese los siguientes comandos para activar el modulo:
+3. Ingrese los siguientes comandos para limpiar archivos innecesarios:
+
+ ```bash
+    rm -rf vendor/paguelofacil-gateway/
+    ```
+4. Ahora ejecutamos los comandos de Magento para instalar modulos
 
     ```bash
    php bin/magento setup:upgrade
    php bin/magento setup:di:compile
     ```
-4. Habilite y configure PagueloFacil en Magento Admin sobre Stores/Configuration/Sales/Payment Methods/PagueloFacil o Paguelofacil Link Payment
+5. Habilite y configure PagueloFacil en Magento Admin sobre Stores->Configuration->Sales->Payment Methods/PagueloFacil o Paguelofacil Link Payment
 
 
