@@ -12,7 +12,7 @@
     "support": {
         "email": "info@paguelofacil.com"
     },
-    "version": "v1.0.18",
+    "version": "v1.0.19",
     "license": [
         "OSL-3.0"
     ],
@@ -46,8 +46,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-package-install": [
-            "magento paguelofacil:postrequire"
+        "post-autoload-dump": [
+            "@composer dump-autoload",
+            "rm -rf vendor/paguelofacil-gateway/"
         ]
     }
 }
