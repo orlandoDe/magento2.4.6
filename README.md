@@ -1,7 +1,7 @@
 Paguelofacil_Gateway
 ======================
 
-Author: [ramon.olmos90@gmail.com](mailto:ramon.olmos90@gmail.com) actualizado por [orlando.depablos@outlook.com](mailto:orlando.depablos@outlook.com)
+Author: [orlando.depablos@outlook.com](mailto:orlando.depablos@outlook.com)
 
 Extensión de proveedor de pagos Paguelofacil para Magento v2.
 
