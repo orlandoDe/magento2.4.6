@@ -23,20 +23,15 @@ Install
     ```
 Esperar mientras las dependencias se actualizan.
 
-3. Ingrese el siguiente comandos para limpiar archivos innecesarios:
 
- ```bash
-	rm -rf app/code/Paguelofacil/
- ```
-
-4. Ahora ejecutamos los comandos de Magento para instalar modulos
+3. Ahora ejecutamos los comandos de Magento para instalar modulos
 
     ```bash
    php bin/magento setup:upgrade &&
    php bin/magento setup:di:compile &&
    php bin/magento c:f
     ```
-5. Habilite y configure PagueloFacil en Magento Admin sobre Stores->Configuration->Sales->Payment Methods/PagueloFacil o Paguelofacil Link Payment
+4. Habilite y configure PagueloFacil en Magento Admin sobre Stores->Configuration->Sales->Payment Methods/PagueloFacil o Paguelofacil Link Payment
 
 
 Uninstall
